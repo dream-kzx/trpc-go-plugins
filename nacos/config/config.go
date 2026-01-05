@@ -39,15 +39,3 @@ type SelectorConfig struct {
 	LogDir          string         `yaml:"log_dir"`
 	CacheDir        string         `yaml:"cache_dir"`
 }
-
-type DiscoveryConfig struct {
-	ServerConfigs []ServerConfig `yaml:"server_configs"`
-	NamespaceId   string         `yaml:"namespace_id"`
-	Group         string         `yaml:"group"`
-	Cluster       string         `yaml:"cluster"`
-	Timeout       uint64         `yaml:"timeout"`
-	Username      string         `yaml:"username"`
-	Password      string         `yaml:"password"`
-	LogDir        string         `yaml:"log_dir"`
-	CacheDir      string         `yaml:"cache_dir"`
-}
